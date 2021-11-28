@@ -30,3 +30,7 @@ Than go to the url http://127.0.0.1:8050/
 
 ![Alt text](https://github.com/Ryo0929/ksedneZ-gnioC-egnellnahC/blob/master/readme_image/chrome-capture.gif)
 
+Error page
+
+
+![Alt text](https://github.com/Ryo0929/ksedneZ-gnioC-egnellnahC/blob/master/readme_image/Screen%20Shot%202021-11-28%20at%204.05.36%20PM.png)
