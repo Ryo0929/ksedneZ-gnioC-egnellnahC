@@ -19,15 +19,17 @@ def mocked_requests_get(*args, **kwargs):
 
 @mock.patch('requests.get', side_effect=mocked_requests_get)
 class TestModel(unittest.TestCase):
-    def test_fetch_data(self, mock_get):
+    def test_fetch_data_success(self, mock_get):
         correct_url='http://zccryo.zendesk.com/tickets.json'
         result=get_data(correct_url,"acc","pwd")
         self.assertTrue(isinstance(result, pd.DataFrame))
 
+    def test_fetch_data_fail(self, mock_get):
         incorrect_url="heeeee"
         result=get_data(incorrect_url,"acc","pwd")
         self.assertTrue(result is None)
 
+    def test_fetch_data_invalid(self, mock_get):
         different_api_call="http://zccryo.zendesk.com/test.json"
         result=get_data(different_api_call,"acc","pwd")
         self.assertTrue(result is None)
