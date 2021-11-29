@@ -34,3 +34,10 @@ Error page
 
 
 ![Alt text](https://github.com/Ryo0929/ksedneZ-gnioC-egnellnahC/blob/master/readme_image/Screen%20Shot%202021-11-28%20at%204.05.36%20PM.png)
+
+## Unit test
+
+Run testing.py
+```
+python testing.py
+```
