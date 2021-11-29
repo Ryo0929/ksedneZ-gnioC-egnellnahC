@@ -20,7 +20,7 @@ You will see flask ran successffly.
 
 ![Alt text](https://github.com/Ryo0929/ksedneZ-gnioC-egnellnahC/blob/master/readme_image/Screen%20Shot%202021-11-28%20at%203.16.28%20PM.png)
 
-Than go to the url http://127.0.0.1:8050/
+Thn go to the url http://127.0.0.1:8050/
 
 ## UML diagram
 
