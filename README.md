@@ -8,13 +8,13 @@ Install requirements
 pip install -r requirements.txt
 ```
 ## Usage
-Run controller.py with three parameter: Domain, email, password.
+Run controller.py with three parameter: SubDomain, email, password.
 ```
-python controller.py {domain} {email} {password}
+python controller.py {subdomain} {email} {password}
 ```
 For example:
 ```
-python controller.py https://zccryo.zendesk.com/api/v2/tickets.json ryo123@gmail.com ryo123123
+python controller.py zccryo ryo123@gmail.com ryo123123
 ```
 You will see flask ran successffly.
 
